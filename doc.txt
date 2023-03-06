@@ -1,0 +1,8 @@
+Uygulamanın özellikleri;
+    Bu yapacağım blog uygulamasında kişiler kendi 
+    yazılarını blog sayfasında paylaşabilecek.
+    Admin yetkisi olan ise kişiler ve paylaşımlarını düzenleyebilecek.
+Yapılacaklar;
+    1-Json-server yapısı kurulacak
+    2-3004 porttta server çalışacak.
+    

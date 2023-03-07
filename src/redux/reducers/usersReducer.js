@@ -3,7 +3,7 @@ import actionTypes from "../actions/actionTypes";
 const initialState = {
     pending: false,
     success: false,
-    blogs: [],
+    users: [],
     error: false,
     errorMesage: ""
 }
@@ -24,7 +24,7 @@ const userReducer = (state = initialState, action) => {
                 pending: false,
                 success: true,
                 error: false,
-                blogs: action.payload
+                users: action.payload
             }
 
         case actionTypes.userAction.GET_USERS_FAIL:

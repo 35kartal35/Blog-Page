@@ -3,12 +3,12 @@ import actionTypes from "../actions/actionTypes";
 const initialState = {
     pending: false,
     success: false,
-    blogs: [],
+    categories: [],
     error: false,
     errorMesage: ""
 }
 
-const categoryReducer = (state = initialState, action) => {
+const categoriesReducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.categoryActions.GET_CATEGORIES_START:
             return {
@@ -24,7 +24,7 @@ const categoryReducer = (state = initialState, action) => {
                 pending: false,
                 success: true,
                 error: false,
-                blogs: action.payload
+                categories: action.payload
             }
 
         case actionTypes.categoryActions.GET_CATEGORIES_FAIL:
@@ -40,4 +40,4 @@ const categoryReducer = (state = initialState, action) => {
     }
 }
 
-export default categoryReducer
+export default categoriesReducer

@@ -8,7 +8,7 @@ const initialState = {
     errorMesage: ""
 }
 
-const blogReducer = (state = initialState, action) => {
+const blogsReducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.blogActions.GET_BLOGS_START:
             return {
@@ -40,4 +40,4 @@ const blogReducer = (state = initialState, action) => {
     }
 }
 
-export default blogReducer
+export default blogsReducer

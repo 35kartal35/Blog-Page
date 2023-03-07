@@ -1,13 +1,13 @@
 import { createStore, combineReducers } from "redux";
 
 import blogsReducer from "./reducers/blogsReducer"
-import categoryReducer from "./reducers/categoriesReducer"
+import categoriesReducer from "./reducers/categoriesReducer"
 import usersReducer from "./reducers/usersReducer"
 import loginReducer from "./reducers/loginReducer"
 
 const rootReducer = combineReducers({
     blogsState: blogsReducer,
-    categoriesState: categoryReducer,
+    categoriesState: categoriesReducer,
     usersState: usersReducer,
     loginState: loginReducer
 })

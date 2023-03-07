@@ -1,11 +1,10 @@
 import React from "react";
+import Header from "../component/header";
 
 const Login = () => {
     return (
         <div>
-            <h1>
-                Login
-            </h1>
+            <Header />
         </div>
     )
 }

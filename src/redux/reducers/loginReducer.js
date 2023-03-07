@@ -3,7 +3,7 @@ import actionTypes from "../actions/actionTypes";
 const initialState = {
     pending: false,
     success: false,
-    blogs: [],
+    login: [],
     error: false,
     errorMesage: ""
 }

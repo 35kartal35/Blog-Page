@@ -8,7 +8,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Login from "./pages/login";
 import AdminHome from "./pages/AdminHome";
-
+import About from "./pages/about";
+import BlogDetail from "./pages/blogDetail";
 
 function App() {
   const dispatch = useDispatch();
@@ -63,6 +64,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/admin" element={<AdminHome />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blogDetail" element={<BlogDetail />} />
+
       </Routes>
     </BrowserRouter>
   );

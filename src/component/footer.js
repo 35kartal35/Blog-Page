@@ -1,10 +1,11 @@
 import React from "react";
+import "../assets/footer.css";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <h1>
-                2023 || BY MEHMET ÖZDEMİR
+                2023 || @ BY MEHMET ÖZDEMİR
 
             </h1>
         </div>

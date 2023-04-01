@@ -4,7 +4,7 @@ import Footer from "../component/footer";
 import { useSelector } from "react-redux";
 import "../assets/css/main.css"
 import CategoriesSection from "../component/categoriesSection";
-import RightContainer from "../component/rightContainer";
+import SubMenu from "../component/SubMenu";
 
 
 
@@ -17,7 +17,7 @@ const Home = () => {
                 <CategoriesSection />
                 <section className="rightSide"></section>
             </main>
-            <RightContainer />
+            <SubMenu />
             <Footer />
         </div>
     )

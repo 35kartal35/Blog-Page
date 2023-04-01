@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import actionTypes from "../redux/actions/actionTypes";
 import { Link } from "react-router-dom";
 const Header = () => {
+
     const { loginState } = useSelector((state) => state);
     const dispatch = useDispatch()
     return (
@@ -50,7 +51,7 @@ const Header = () => {
                 </ul>
             </nav>
         </header>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

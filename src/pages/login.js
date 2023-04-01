@@ -5,6 +5,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 import { useSelector, useDispatch } from "react-redux";
 import actionTypes from "../redux/actions/actionTypes";
+import Header from "../component/header";
 
 const Login = () => {
     const { usersState, loginState } = useSelector((state) => state);
@@ -33,20 +34,21 @@ const Login = () => {
         /* login başarılı */
         dispatch({
             type: actionTypes.loginActions.LOGIN_SUCCESS,
-            payload: { username: hasUser.username, role: hasUser.role },
+            payload: { username: hasUser.username, role: hasUser.role, userId: hasUser.id },
         });
         const successLoginState = {
             pending: false,
             success: true,
             error: false,
             errorMessage: "",
-            user: { username: hasUser.username, role: hasUser.role },
+            user: { username: hasUser.username, role: hasUser.role, userId: hasUser.id },
         };
         localStorage.setItem("loginState", JSON.stringify(successLoginState))
         navigate("/");
     };
     return (
         <div>
+            <Header />
             <Container>
                 <h1 className="my-5 text-center">Login</h1>
                 <Form onSubmit={handleLogin}>

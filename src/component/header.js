@@ -24,6 +24,9 @@ const Header = () => {
                         <Link to={"/"}>Anasayfa</Link>
                     </li>
                     <li>
+                        <Link to={"/addBlog"}>Blog Ekle</Link>
+                    </li>
+                    <li>
                         <Link to={"/about"}>Hakkımda</Link>
                     </li>
                     <li>

@@ -35,6 +35,12 @@ const blogsReducer = (state = initialState, action) => {
                 error: true,
                 errorMesage: action.payload
             }
+
+        case actionTypes.blogActions.ADD_BLOG:
+            return {
+                ...state,
+                blogs: [...state.blogs, action.payload]
+            }
         default:
             return state
     }

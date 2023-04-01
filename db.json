@@ -1,47 +1,79 @@
 {
-    "blogs": [
-        {
-            "id": "1",
-            "title": "Mehmet Özdemir",
-            "description": "kartal35 Mehmet özdemir Hoca Ahmet Yesevi Lisesinden mezunum. ",
-            "content": "mozdemir3545@gmail.com",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png",
-            "categoryId": "1",
-            "userId": "1"
-        }
-    ],
-    "categories": [
-        {
-            "id": "1",
-            "name": "html"
-        },
-        {
-            "id": "2",
-            "name": "css"
-        },
-        {
-            "id": "3",
-            "name": "javascript"
-        }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "username": "superadmin",
-            "password": "superadmin",
-            "role": "admin"
-        },
-        {
-            "id": "2",
-            "username": "blogger1",
-            "password": "blogger1",
-            "role": "blogger"
-        },
-        {
-            "id": "3",
-            "username": "blogger2",
-            "password": "blogger2",
-            "role": "blogger"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Mehmet Özdemir",
+      "description": "kartal35 Mehmet özdemir Hoca Ahmet Yesevi Lisesinden mezunum. ",
+      "content": "mozdemir3545@gmail.com",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png",
+      "categoryId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "1680357948395",
+      "title": "mehmet",
+      "description": "ddd",
+      "content": "ddd",
+      "img": "ddd",
+      "categoryId": "2"
+    },
+    {
+      "id": "1680358006649",
+      "title": "aedaaef",
+      "description": "asdasdfaf",
+      "content": "deeded",
+      "img": "https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": "1680358214446",
+      "title": "",
+      "description": "",
+      "content": "",
+      "img": "",
+      "categoryId": "0"
+    },
+    {
+      "id": "1680358285895",
+      "title": "Mehmet özdemir",
+      "description": "Mehmet özdemir",
+      "content": "Mehmet özdemir",
+      "img": "https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg",
+      "categoryId": "2"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "html"
+    },
+    {
+      "id": "2",
+      "name": "css"
+    },
+    {
+      "id": "3",
+      "name": "javascript"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "superadmin",
+      "password": "superadmin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "blogger1",
+      "password": "blogger1",
+      "role": "blogger"
+    },
+    {
+      "id": "3",
+      "username": "blogger2",
+      "password": "blogger2",
+      "role": "blogger"
+    }
+  ]
 }

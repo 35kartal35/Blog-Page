@@ -10,6 +10,7 @@ import Login from "./pages/login";
 import AdminHome from "./pages/AdminHome";
 import About from "./pages/about";
 import BlogDetail from "./pages/blogDetail";
+import AddBlog from "./pages/AddBlog";
 
 function App() {
   const dispatch = useDispatch();
@@ -53,8 +54,6 @@ function App() {
         type: actionTypes.userAction.GET_USERS_FAIL,
         payload: "kullanıcı bilgilerini çekerken bir hata oldu..."
       }));
-
-
   }, [dispatch]);
   if (!blogsState.success || !categoriesState.success || !usersState.success)
     return null;
@@ -66,6 +65,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/blogDetail" element={<BlogDetail />} />
+        <Route path="/addBlog" element={<AddBlog />} />
 
       </Routes>
     </BrowserRouter>

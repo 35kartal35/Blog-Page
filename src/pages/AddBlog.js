@@ -32,9 +32,12 @@ const AddBlog = () => {
         api.post(endpoints.blogs, form)
             .then(res => {
                 dispatch({ type: actionTypes.blogActions.ADD_BLOG, payload: form })
-                navigate("/admin")
+                navigate("/")
+
             })
             .catch(err => { })
+
+
     };
 
 

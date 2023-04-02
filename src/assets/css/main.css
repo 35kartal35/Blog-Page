@@ -3,6 +3,7 @@
     width: 100%;
     min-height: calc(100vh - 75px);
     display: flex;
+    justify-content: space-between;
     gap: 10px;
 }
 

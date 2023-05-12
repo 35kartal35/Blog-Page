@@ -8,7 +8,7 @@ const initialState = {
     errorMesage: ""
 }
 
-const loginReducer = (state = initialState, action) => {
+const loginReducer = (state=initialState, action) => {
     switch (action.type) {
         case actionTypes.loginActions.LOGIN_START:
             return {

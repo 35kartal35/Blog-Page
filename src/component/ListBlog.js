@@ -21,7 +21,7 @@ export default function ListBlog() {
                 <thead>
                     <tr>
                         <th scope="col">Sıra</th>
-                        <th scope="col">Resim</th>
+
                         <th scope="col">Başlık</th>
                         <th scope="col">Kategori</th>
                         <th scope="col">Yazar</th>
@@ -35,7 +35,7 @@ export default function ListBlog() {
                         return (
                             <tr key={index}>
                                 <th scope="row">{index + 1}</th>
-                                <td>{blog.img}</td>
+
                                 <td>{blog.title.toLocaleUpperCase("tr-TR")}</td>
                                 <td>{category?.name}</td>
                                 <td>{blog.content}</td>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const SubMenu = () => {
     return (
         <div>
-            <Link to={"/admin"}>Blog İşlemleri</Link>
+            <Link to={"/"}>Blog İşlemleri</Link>
 
         </div>
     )
